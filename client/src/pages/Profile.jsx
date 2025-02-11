@@ -125,7 +125,7 @@ export default function Profile() {
         <input onChange={(e)=>setFile(e.target.files[0])} type='file' ref={fileRef} hidden accept='image/*'/>
         <img onClick={()=>fileRef.current.click()} src={formData.avatar || currentUser.avatar} 
         alt='profile' 
-        className='rounded-full w-35 h-35
+        className='rounded-full w-20 h-20
         object-cover cursor-pointer self-center mt-2'
         />
         <p className='text-sm self-center'>
