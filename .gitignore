@@ -120,7 +120,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-
+//removed .env file from gitignore only for testing purposes
 .venv
 venv/
 ENV/
